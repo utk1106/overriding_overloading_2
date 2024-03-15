@@ -5,6 +5,7 @@ public class Parent {
 }
 
 class Child extends Parent{
+    @Override //sugests the indication
     public void marry(){
         System.out.println("DDLJ"); //here child class has overriding parent class
         // and Parent class is overridden by Child class
